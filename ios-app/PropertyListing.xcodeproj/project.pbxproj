@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1234567890ABCDEF001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF002 /* AppDelegate.swift */; };
+		A1234567890ABCDEF003 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF004 /* SceneDelegate.swift */; };
+		A1234567890ABCDEF005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF006 /* ViewController.swift */; };
+		A1234567890ABCDEF007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF008 /* Main.storyboard */; };
+		A1234567890ABCDEF009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF00A /* Assets.xcassets */; };
+		A1234567890ABCDEF00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF00C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1234567890ABCDEF001 /* PropertyListing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyListing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1234567890ABCDEF002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF004 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF006 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1234567890ABCDEF00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1234567890ABCDEF00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1234567890ABCDEF00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1234567890ABCDEF00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1234567890ABCDEF00F /* PropertyListing */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF010 /* App */,
+				A1234567890ABCDEF011 /* Models */,
+				A1234567890ABCDEF012 /* Views */,
+				A1234567890ABCDEF013 /* Controllers */,
+				A1234567890ABCDEF014 /* Services */,
+				A1234567890ABCDEF015 /* Utils */,
+				A1234567890ABCDEF016 /* Resources */,
+			);
+			path = PropertyListing;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF010 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF002 /* AppDelegate.swift */,
+				A1234567890ABCDEF004 /* SceneDelegate.swift */,
+				A1234567890ABCDEF00D /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF012 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF008 /* Main.storyboard */,
+				A1234567890ABCDEF00C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF013 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF006 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF014 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF015 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF016 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF00A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		A1234567890ABCDEF017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1234567890ABCDEF001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1234567890ABCDEF018 /* Build configuration list for PBXProject "PropertyListing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1234567890ABCDEF019;
+			productRefGroup = A1234567890ABCDEF01A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1234567890ABCDEF001 /* PropertyListing */,
+			);
+		};
+/* End PBXProject section */
+
+	};
+	rootObject = A1234567890ABCDEF017 /* Project object */;
+}
